@@ -1,14 +1,20 @@
-# End to end data engineering project
-Designed and developed a modern data pipeline and analytics platform using Python, 
-SQL, DuckDB, and Streamlit to automate data ingestion, cleansing, validation, storage, and visualization of NBA 
-statistics data. The project demonstrates ETL development, database design, analytics engineering, and dashboard 
-deployment workflows. It consists of below objectives:
+# Hadrian Business Analyst SQL Assessment
+
+**Name:** Abolfazl Zolfaghari
+
+---
+
+# Project Overview
+
+This project was completed as part of the Hadrian Business Analyst SQL Assessment.
+
+The objective was to:
 
 * Retrieve NBA data dynamically from a public API source
 * Clean and transform the data using Python
 * Store the data in DuckDB and Parquet formats
 * Solve business analysis questions using SQL
-* Create an interactive dashboard using Streamlit and Plotly
+* Create an interactive dashboard using Streamlit and Plotly (Bonus Task)
 
 ---
 
@@ -46,11 +52,11 @@ Only standard league NBA franchise teams were included, based on assessment requ
 # Project Files Structure
 
 ```text
-End_to_end_data_engineering_project/
+Abolfazl_Zolfaghari_Hadrian_Assessment/
 │── load_data.py
-│── End_to end data engineering project_SQL.sql
+│── Abolfazl_Zolfaghari_Hadrian_SQL_Assessment.sql
 │── run_sql.sql
-│── nba_interactive.py
+│── nba_interactive_bonus.py
 │── nba_data.duckdb
 │── teams.parquet
 │── games.parquet
@@ -83,9 +89,9 @@ Python ETL script that:
 
 ---
 
-## End_to end data engineering project_SQL.sql
+## Abolfazl_Zolfaghari_Hadrian_SQL_Assessment.sql
 
-Main SQL file containing solutions for:
+Main SQL assessment file containing solutions for:
 
 1. Basic Data Extraction: Top 10 highest-scoring games in the last decade
 2. Win-Loss Records: Win-Loss Record for Each Team (Last Decade)
@@ -111,7 +117,7 @@ Python automation script used to:
 
 ---
 
-## nba_interactive.py
+## nba_interactive_bonus.py
 
 Interactive dashboard created using Streamlit + Plotly.
 
@@ -187,7 +193,7 @@ Used for:
 
 ## screenshots/
 
-Contains dashboard preview images for quick review of the visualization.
+Contains dashboard preview images for quick review of the bonus visualization task.
 
 ---
 
@@ -246,13 +252,13 @@ Outputs:
 
 Open:
 
-End_to end data engineering project_SQL.sql
+Abolfazl_Zolfaghari_Hadrian_SQL_Assessment.sql
 
 This file contains solutions for all required SQL tasks.
 
 ---
 
-## Step 4: Execute SQL via Python
+## Step 4: Execute SQL Assessment via Python
 
 Run:
 
@@ -269,7 +275,7 @@ This will:
 * Confirm successful execution
 
 Note: DuckDB or any SQL editor can be used to execute sql assessment or run queries 
-Note2: Queries in sql (End_to end data engineering project_SQL.sql) can be run manually as well.
+Note2: Queries in sql assessment (Abolfazl_Zolfaghari_Hadrian_SQL_Assessment.sql) can be run manually as well.
 
 ---
 
@@ -278,7 +284,7 @@ Note2: Queries in sql (End_to end data engineering project_SQL.sql) can be run m
 Run:
 
 ```bash
-streamlit run nba_interactive.py
+streamlit run nba_interactive_bonus.py
 ```
 
 A browser page will open automatically with the interactive dashboard.
