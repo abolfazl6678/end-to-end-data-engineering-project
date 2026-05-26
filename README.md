@@ -1,20 +1,14 @@
-# Hadrian Business Analyst SQL Assessment
+# End-to-end-data-engineering-project
 
-**Name:** Abolfazl Zolfaghari
+End-to-end NBA data engineering and analytics platform built with Python, DuckDB, SQL, Parquet, and Streamlit for automated ETL pipelines, analytics, and interactive dashboard visualization.
 
----
-
-# Project Overview
-
-This project was completed as part of the Hadrian Business Analyst SQL Assessment.
-
-The objective was to:
+This project was completed fOR below objectives.
 
 * Retrieve NBA data dynamically from a public API source
 * Clean and transform the data using Python
 * Store the data in DuckDB and Parquet formats
-* Solve business analysis questions using SQL
-* Create an interactive dashboard using Streamlit and Plotly (Bonus Task)
+* Solve questions using SQL
+* Create an interactive dashboard using Streamlit and Plotly
 
 ---
 
@@ -29,7 +23,7 @@ The following endpoints were used:
 * `/teams`
 * `/games`
 
-Only standard league NBA franchise teams were included, based on assessment requirements.
+Only standard league NBA franchise teams were included.
 
 ---
 
@@ -52,11 +46,11 @@ Only standard league NBA franchise teams were included, based on assessment requ
 # Project Files Structure
 
 ```text
-Abolfazl_Zolfaghari_Hadrian_Assessment/
+End_to_end_data_engineering_project/
 │── load_data.py
-│── Abolfazl_Zolfaghari_Hadrian_SQL_Assessment.sql
+│── End_to_end_data_engineering_project_SQL_Assessment.sql
 │── run_sql.sql
-│── nba_interactive_bonus.py
+│── nba_interactive.py
 │── nba_data.duckdb
 │── teams.parquet
 │── games.parquet
@@ -89,9 +83,9 @@ Python ETL script that:
 
 ---
 
-## Abolfazl_Zolfaghari_Hadrian_SQL_Assessment.sql
+## End_to_end_data_engineering_project_SQL.sql
 
-Main SQL assessment file containing solutions for:
+Main SQL file containing solutions for:
 
 1. Basic Data Extraction: Top 10 highest-scoring games in the last decade
 2. Win-Loss Records: Win-Loss Record for Each Team (Last Decade)
@@ -117,7 +111,7 @@ Python automation script used to:
 
 ---
 
-## nba_interactive_bonus.py
+## nba_interactive.py
 
 Interactive dashboard created using Streamlit + Plotly.
 
@@ -209,7 +203,7 @@ Project documentation containing:
 * How to Run This Project
 * Data Assumptions
 * Data Quality Checks Included
-* Bonus Visualization Preview
+* Visualization Preview
 * Notes
 
 --
@@ -252,13 +246,13 @@ Outputs:
 
 Open:
 
-Abolfazl_Zolfaghari_Hadrian_SQL_Assessment.sql
+End_to_end_data_engineering_project_SQL.sql
 
 This file contains solutions for all required SQL tasks.
 
 ---
 
-## Step 4: Execute SQL Assessment via Python
+## Step 4: Execute SQL Tasks via Python
 
 Run:
 
@@ -269,22 +263,22 @@ python run_sql.py
 This will:
 
 * Connect to nba_data.duckdb
-* Load the SQL assessment file
+* Load the SQL file
 * Execute all SQL tasks
 * Validate games and teams row counts
 * Confirm successful execution
 
-Note: DuckDB or any SQL editor can be used to execute sql assessment or run queries 
-Note2: Queries in sql assessment (Abolfazl_Zolfaghari_Hadrian_SQL_Assessment.sql) can be run manually as well.
+Note: DuckDB or any SQL editor can be used to execute sql or run queries 
+Note2: Queries in sql  (End_to_end_data_engineering_project_SQL.sql) can be run manually as well.
 
 ---
 
-## Step 5: Launch Bonus Dashboard
+## Step 5: Launch Dashboard
 
 Run:
 
 ```bash
-streamlit run nba_interactive_bonus.py
+streamlit run nba_interactive.py
 ```
 
 A browser page will open automatically with the interactive dashboard.
@@ -310,7 +304,7 @@ A browser page will open automatically with the interactive dashboard.
 
 ---
 
-# Bonus Visualization Preview
+# Visualization Preview
 
 Screenshots are included inside:
 
@@ -322,15 +316,8 @@ Screenshots are included inside:
 
 # Notes
 
-* SQL queries were written with readability and business logic in mind.
+* SQL queries were written with readability in mind.
 * Python scripts were commented clearly to explain methodology.
 * DuckDB was selected for lightweight local analytics performance.
 * Parquet outputs were included for portability and scalability.
-* Bonus dashboard demonstrates ability to communicate insights visually.
-
----
-
-# Thank You
-
-Thank you for reviewing my submission.
-I appreciate the opportunity to complete this assessment.
+* Dashboard demonstrates ability to communicate insights visually.
