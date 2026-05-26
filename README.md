@@ -48,7 +48,7 @@ Only standard league NBA franchise teams were included.
 ```text
 End_to_end_data_engineering_project/
 │── load_data.py
-│── End_to_end_data_engineering_project_SQL_Assessment.sql
+│── End_to_end_data_engineering_project_SQL.sql
 │── run_sql.sql
 │── nba_interactive.py
 │── nba_data.duckdb
